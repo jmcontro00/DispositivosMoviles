@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentsAbout.InfoApp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fgApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Esta aplicación tiene como propóstio mantener informada a la organizacion sobre la ocupación de los accesos dentro de la empresa. De igual manera se pretende tener un registro de las personas que los han ocupado."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        />
+
+</FrameLayout>
